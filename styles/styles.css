@@ -3,9 +3,8 @@
   margin: 0;
   padding: 0;
 
-
 }
-  
+
 header {
   /* border: 2px solid black; */
   width: 100%;
@@ -51,15 +50,91 @@ a:link {
   padding: 5px;
 
 }
-
-.dogs {
-  border: 2px solid black;
+ .dogs {
   position: relative;
-  bottom: 500px;
+  bottom: 650px;
+  height: 15px;
+
 }
 
-.dog-item {
+.dog-item1 {
   border: 2px solid black;
+  width: 20%;
+  position: relative;
+  left: 140px;
+
+}
+.dog-item2 {
+  border: 2px solid black;
+  width: 20%;
+  position: relative;
+  bottom: 300px;
+  left: 450px;
+
+}
+.dog-item3 {
+  border: 2px solid black;
+  width: 20%;
+  position: relative;
+  bottom: 600px;
+  left: 750px;
+}
+.dog-item4 {
+  border: 2px solid black;
+  width: 20%;
+  position: relative;
+  bottom: 895px;
+  left: 1070px;
+
+}
+.dog-item5 {
+  border: 2px solid black;
+  width: 20%;
+  position: relative;
+  bottom: 870px;
+  left: 137px;
+
+}
+.dog-item6 {
+  border: 2px solid black;
+  width: 20%;
+  position: relative;
+  bottom: 1170px;
+  left: 444px;
+
+}
+.dog-item7 {
+  border: 2px solid black;
+  width: 20%;
+  position: relative;
+  bottom: 1470px;
+  left: 750px;
+
+}
+.dog-item8 {
+  border: 2px solid black;
+  width: 20%;
+  position: relative;
+  bottom: 1770px;
+  left: 1060px;
+
+}
+
+
+
+
+h3 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.adopt-button {
+  border: 2px solid black;
+  text-align: center;
+  background-color: green;
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 /* a.visited {
   text-decoration: none;
@@ -122,4 +197,38 @@ a[href="/Users/noahtesema/Desktop/adopt-a-dog/Checkout.html"] {
   color: white;
   padding-left: 35px;
   padding-right: 30px;
+}
+
+.footerlogo img[src="/Users/noahtesema/Desktop/adopt-a-dog/images/adoptadog-logo.svg"] {
+  position: relative;
+  top: 300px;
+}
+.seemoredogs {
+  font-weight: bold;
+  font-size: 25px;
+  border: 2px solid black;
+  color: navy;
+  background-color: #E0E0E0;
+  padding: 25px;
+  text-align: center;
+  margin-left: 550px;
+  margin-right: 550px;
+}
+
+footer {
+  background-color: #003568;
+  margin-top: 65px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.foottext {
+  color: white;
+  position: relative;
+  bottom: 150px;
+  padding: 15px;
+}
+.foottext a {
+  color: white;
 }

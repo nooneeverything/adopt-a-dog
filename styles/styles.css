@@ -203,7 +203,7 @@ a[href="/adopt-a-dog/Checkout.html"] {
   padding-right: 30px;
 }
 
-img[src="/adopt-a-dog/images/adoptadog-logo-footer.svg"]{
+.footerlogo img[src="/adopt-a-dog/images/adoptadog-logo.svg"] {
   position: relative;
   top: 300px;
 }
